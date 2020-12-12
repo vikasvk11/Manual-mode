@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@600;700&display=swap");
+
+body {
+  background-image: url("https://i.ibb.co/KcnCStL/cameralogo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  min-height: 100vh;
+}
+
+.App {
+  font-family: "Comfortaa", cursive;
+  text-align: center;
+}
+
+button {
+  height: 2.5rem;
+  font-family: "Comfortaa", cursive;
+  font-weight: 700;
+  width: 7rem;
+  padding: 0.5rem;
+  margin: 1rem 1rem;
+  border-radius: 1rem;
+  background-color: rgba(255, 255, 255, 0.219);
+  border: 0;
+  box-shadow: 2px 2px 2px 0.5px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+button:hover {
+  background: rgb(101, 206, 255);
+}
+
+button:active {
+  background: white;
+}
+
+span {
+  color: rgb(255, 255, 0);
+  font-weight: 700;
+  text-shadow: 4px 4px 5px 4px rgb(0, 0, 0);
+  font-size: 0.95rem;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+footer {
+  height: 100px;
+  background-color: rgba(255, 255, 255, 0.479);
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0rem;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  bottom: 0;
+  padding: 0 0;
+}
+
+.footer-header {
+  padding-top: 1rem;
+  text-align: center;
+  font-weight: 700;
+}
+
+.footer-list {
+  margin-right: 1.4rem;
+}
+
+.list-item-inline {
+  display: inline;
+  padding: 0rem;
+  margin-right: 1rem;
+}
+
+.list-non-bullet {
+  padding: 0.5rem;
+  text-align: left;
+  list-style-type: none;
+  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 1rem;
+  width: 350px;
+  margin: 2rem auto;
+}
+
+.para {
+  margin: 1rem auto;
+  font-size: 0.9rem;
+  width: 400px;
+}
+
+.points {
+  padding: 0.5rem;
+}
+
+.click {
+  color: rgb(255, 248, 151);
+}
+
+.gap {
+  min-height: calc(100vh - 100px);
+}
